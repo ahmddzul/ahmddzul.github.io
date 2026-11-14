@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>JANGAN TYPO!</title><link rel="manifest" href="manifest.json"><meta name="theme-color" content="#0a6b55">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png"></head>
+<body style="margin:0;display:grid;place-items:center;min-height:100vh;background:#eef2ee;font-family:system-ui,sans-serif;color:#1c2b25;text-align:center">
+<div><b style="font-size:1.4rem">JANGAN TYPO!</b><p>Memindahkan ke alamat baru…</p><p><a id="go" href="#">Ketuk di sini kalau tidak berpindah</a></p></div>
+<script>
+var NEW="https://jangantypo.pages.dev/";
+(function(){var h="";try{var o={};for(var i=0;i<localStorage.length;i++){var k=localStorage.key(i);if(/^jt_/.test(k))o[k]=localStorage.getItem(k)}
+if(Object.keys(o).length)h="#mig="+btoa(unescape(encodeURIComponent(JSON.stringify(o)))).replace(/\+/g,"-").replace(/\//g,"_")}catch(e){}
+document.getElementById("go").href=NEW+h;location.replace(NEW+h)})();
+</script></body></html>
