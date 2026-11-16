@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Last Seen</title><meta name="theme-color" content="#05060a">
+<link rel="icon" href="favicon.ico"><link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="canonical" href="https://lastseen-game.pages.dev/">
+<meta property="og:title" content="Last Seen"><meta property="og:description" content="Game detektif di HP. HP adikmu ditemukan di peron stasiun. Adikmu tidak.">
+<meta property="og:image" content="https://lastseen-game.pages.dev/og.jpg"><meta property="og:url" content="https://lastseen-game.pages.dev/"><meta name="twitter:card" content="summary_large_image">
+<noscript><meta http-equiv="refresh" content="0;url=https://lastseen-game.pages.dev/"></noscript></head>
+<body style="margin:0;display:grid;place-items:center;min-height:100vh;background:#08090c;font-family:system-ui,sans-serif;color:#ececf1;text-align:center;padding:24px">
+<div><b style="font-size:1.4rem;font-weight:300;letter-spacing:-.02em">last seen</b><p style="color:#a2a3ae">Pindah ke alamat baru. Progresmu ikut dibawa…</p>
+<p><a id="go" href="https://lastseen-game.pages.dev/" style="color:#e9b949">Ketuk di sini kalau tidak berpindah</a></p></div>
+<script>
+var NEW="https://lastseen-game.pages.dev/";
+(function(){var h="";try{var o={};for(var i=0;i<localStorage.length;i++){var k=localStorage.key(i);if(/^(lastseen\.|ls\.)/.test(k))o[k]=localStorage.getItem(k)}
+if(Object.keys(o).length)h="#mig="+btoa(unescape(encodeURIComponent(JSON.stringify(o)))).replace(/\+/g,"-").replace(/\//g,"_")}catch(e){}
+document.getElementById("go").href=NEW+h;location.replace(NEW+h)})();
+</script></body></html>
